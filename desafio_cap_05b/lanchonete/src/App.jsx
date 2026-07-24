@@ -36,21 +36,21 @@ const lanches = [
 ]
 
 const App = () => {
-  return (
-    <div>
-        <Banner/>
-        <Cabecalho/>
-        <h2>Cardápio</h2>
-        {lanches.map((l) => (
-            <CartaoLanches 
-                key={l.id}
-                nome={l.nome}
-                preco={l.preco}
-                descricao={l.descricao}
-            />
-        ))}
-    </div>
-  )
+    return (
+        <div>
+            <Banner/>
+            <Cabecalho/>
+            <h2>Cardápio</h2>
+            {lanches.map((l) => (
+                <CartaoLanches 
+                    key={l.id}
+                    nome={l.nome}
+                    preco={l.preco}
+                    descricao={l.descricao}
+                />
+            ))}
+        </div>
+    )
 }
 
 export default App
