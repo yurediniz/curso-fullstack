@@ -1,7 +1,7 @@
 const Cabecalho = () => {
   return (
     <div>
-        <p>🎬 Bem Vindos ao CineDev!</p>
+        <p>📚 Estante do Dev - os livros de quem programa</p>
     </div>
   )
 }
